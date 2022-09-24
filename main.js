@@ -136,3 +136,80 @@
 // function lastLetter(str){
 //   return str.slice(-1);
 // }
+
+
+
+
+//countdown project
+
+// let output = document.querySelector('.output')
+
+
+
+// for(let i = 10; i >= 0; i--){
+//   let para = document.createElement('p');
+//   output.appendChild(para);
+//   if (i === 10){
+//    para.textContent = `Countdown ${i} `;
+//    } else if (i === 0 ){
+//     para.textContent = 'Blast off';
+//   }else{
+//     para.textContent= i
+//   }
+  
+
+// }
+
+
+
+
+
+//A GUEST LIST
+
+
+// const people = ['Chris', 'Anne', 'Colin', 'Terri', 'Phil', 'Lola', 'Sam', 'Kay', 'Bruce'];
+
+
+
+// const admitted = document.querySelector('.admitted');
+// const refused = document.querySelector('.refused')
+// admitted.textContent = 'Admit: ';
+// refused.textContent = 'Refuse: ';
+
+
+// for (const person of people ){
+//   if(person ==='Phil' || person === 'Lola'){
+//     refused.textContent+= `${person}, `
+//   }else{
+//     admitted.textContent+= `${person}, `
+//   }
+// }
+
+// admitted.textContent= admitted.textContent.slice(0,admitted.textContent.length-2) + '.';
+// refused.textContent = refused.textContent.slice(0,refused.textContent.length-2) + '.';
+
+
+
+
+// const myArray = ['tomatoes', 'chick peas', 'onions', 'rice', 'black beans'];
+
+// let list = document.createElement('ul')
+
+
+
+
+// for(const item of myArray){
+//  list.innerHTML +=`<li>${item}</li>`
+
+// }
+// const section = document.querySelector('section')
+// section.appendChild(list);
+
+// console.log(section)
+
+
+
+
+
+
+
