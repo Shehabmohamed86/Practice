@@ -193,7 +193,7 @@
 
 // const myArray = ['tomatoes', 'chick peas', 'onions', 'rice', 'black beans'];
 
-// let list = document.createElement('ul')
+// const list = document.createElement('ul')
 
 
 
@@ -205,10 +205,27 @@
 // const section = document.querySelector('section')
 // section.appendChild(list);
 
-// console.log(section)
 
 
 
+let band = {
+  name : 'Queen',
+  nationality : 'American',
+  genre: 'Rock',
+  members:'4',
+  formad:'1970',
+  split: false,
+  albums: ['Flash gordon','Highlander'],
+  titel : 'Flash',
+  released : '1980'
+};
+let bandInfo = `our name is ${band.name}, our nationalality is ${band.nationality}`
+
+
+const section = document.querySelector('section');
+let para = document.createElement('p');
+para.textContent = bandInfo;
+section.appendChild(para)
 
 
 
