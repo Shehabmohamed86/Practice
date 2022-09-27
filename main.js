@@ -208,25 +208,81 @@
 
 
 
-let band = {
-  name : 'Queen',
-  nationality : 'American',
-  genre: 'Rock',
-  members:'4',
-  formad:'1970',
-  split: false,
-  albums: ['Flash gordon','Highlander'],
-  titel : 'Flash',
-  released : '1980'
-};
-let bandInfo = `our name is ${band.name}, our nationalality is ${band.nationality}`
-
-
-const section = document.querySelector('section');
-let para = document.createElement('p');
-para.textContent = bandInfo;
-section.appendChild(para)
 
 
 
 
+
+// let band = {
+//   name : 'Queen',
+//   nationality : 'American',
+//   genre: 'Rock',
+//   members:'4',
+//   formad:'1970',
+//   split: false,
+//   albums: ['Flash gordon','Highlander'],
+//   titel : 'Flash',
+//   released : '1980'
+// };
+// let bandInfo = `our name is ${band.name}, our nationalality is ${band.nationality}`
+
+
+// const section = document.querySelector('section');
+// let para = document.createElement('p');
+// para.textContent = bandInfo;
+// section.appendChild(para)
+
+
+// const para = document.createElement('p');
+
+// const phonebook = [
+//   { name : 'Chris', number : '1549' },
+//   { name : 'Li Kang', number : '9634' },
+//   { name : 'Anne', number : '9065' },
+//   { name : 'Francesca', number : '3001' },
+//   { name : 'Mustafa', number : '6888' },
+//   { name : 'Tina', number : '4312' },
+//   { name : 'Bert', number : '7780' },
+//   { name : 'Jada', number : '2282' },
+// ]
+
+
+// for(const person of phonebook){
+//   if(person.name === 'Mustafa'){
+//     para.textContent = person.number
+//   }
+// }
+
+// const section = document.querySelector('section');
+// section.appendChild(para);
+
+
+
+
+
+
+// let i = 500;
+// const para = document.createElement('p');
+
+// function isPrime(num) {
+//   for(let i = 2; i < num; i++) {
+//     if(num % i === 0) {
+//       return false;
+//     }
+//   }
+
+//   return true;
+// }
+
+
+// for(let i = 500; i >= 2; i--){
+//   if(!isPrime(i)){
+//     continue;
+//   }
+//   if(isPrime(i)){
+//   para.textContent += i 
+//   }
+// }
+
+// const section = document.querySelector('section');
+// section.appendChild(para);
