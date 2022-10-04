@@ -286,3 +286,73 @@
 
 // const section = document.querySelector('section');
 // section.appendChild(para);
+
+
+
+
+
+// let user = {};
+
+// user.name = 'john';
+// user.surname = 'smith';
+// user.name = 'pete';
+// delete user.name;
+
+
+
+// let schedule = {};
+
+// function isEmpty(obj){
+//  for(let key in obj){
+//   return false;
+//  }
+//  return true
+// }
+
+// alert(isEmpty(schedule));
+
+// schedule["8:30"] = "get up";
+
+// alert(isEmpty(schedule));
+
+
+
+
+
+
+// let salaries = {
+//   John: 100,
+//   Ann: 160,
+//   Pete: 130
+// }
+
+// let sum = 0;
+
+// for(let key in salaries){
+//   sum +=  salaries[key]
+ 
+// }
+
+// console.log(sum)
+
+
+
+
+
+
+let menu = {
+  width: 200,
+  height: 300,
+};
+
+
+
+ function multiplayNumeric(obj){
+  for (let key in obj) {
+    if (typeof obj[key] === 'number'){
+    obj[key] *= 2;
+  }
+  }
+ }
+
+
